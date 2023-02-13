@@ -1,0 +1,6 @@
+:8836 {
+    root * .
+    file_server {
+        hide .git
+    }
+}

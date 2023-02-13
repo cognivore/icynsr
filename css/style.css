@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'icy-headings';
+    src: url('/css/headings.woff2');
+}
+
+@font-face {
+    font-family: 'icy-regular';
+    src: url('/css/regular.woff2');
+}
+
+@font-face {
+    font-family: 'icy-bold';
+    src: url('/css/bold.woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'icy-italic';
+    src: url('/css/italic.woff2');
+    font-style: italic;
+}
+
+* {
+    font-family: 'icy-regular';
+    font-size: 18px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'icy-headings';
+}
+
+strong, b {
+    font-family: 'icy-bold';
+}
+
+em, i {
+    font-family: 'icy-italic';
+}
+
+ul {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 1.2em;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.grid-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1.2em;
+}
+
+.no-pad {
+    padding: 0;
+}
+
+.no-border {
+    border: 0;
+}
+
+h4 {
+    margin-bottom: 0.33em;
+}
+
+thead th, tbody td {
+    padding: 0.5em;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
