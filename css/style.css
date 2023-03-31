@@ -60,6 +60,19 @@ h3 {
     grid-gap: 10px;
 }
 
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
 .grid-card {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -84,4 +97,8 @@ thead th, tbody td {
 
 tbody tr:nth-child(odd) {
     background-color: #f2f2f2;
+}
+
+#Vault {
+    text-align: justify;
 }
